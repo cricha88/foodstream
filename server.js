@@ -6,9 +6,7 @@ app.use(express.json());
 
 const port = process.env.PORT || 5000;
 
-// const nutritionix = require("nutritionix-api");
-// const API_ID = '76f301fb';
-// const API_KEY = '319ec1d8e7c45c2a3af67948aa8da8ba';
+
 
 // console.log that your server is up and running
 app.listen(port, () => console.log(`Listening on port ${port}`));
