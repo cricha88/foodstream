@@ -29,18 +29,6 @@ app.post('/add_new', (req, res) =>  {
 	console.log(req.body.query);
 
 
-	// var text = "";
-	// var rJSON = 
-
-	// var r = request.post("https://trackapi.nutritionix.com/v2/natural/tags", { json: {query : "bananas and apples"}}, function(error, response, body) {
-	// 	if (!error && response.statusCode == 200) {
-	// 		console.log(body);
-	// 	}
-	// });
-
-	// for (var i=0; i<rJSON.length;i++){
-	// 	console.log(rJSON[i].TAG_NAME);
-
 	const options = {
 		headers: {"content-type": "application/json"}
 	};
